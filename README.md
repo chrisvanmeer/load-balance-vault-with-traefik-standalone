@@ -264,7 +264,7 @@ msg="Still UP, no need to propagate"
 Checking this through API can be done like this
 
 ```shell
-$ $ curl -s localhost:8080/api/http/services/vault@file | jq
+$ curl -s localhost:8080/api/http/services/vault@file | jq
 {
   "loadBalancer": {
     "servers": [
